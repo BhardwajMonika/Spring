@@ -1,0 +1,11 @@
+package com.niit.spring;
+
+public class UserAopClient {
+
+	public static void main(String[] args) {
+		
+		ApplictaionContext context = new ClassPathXmlApplicationContext("user.xml");
+		
+	}
+
+}

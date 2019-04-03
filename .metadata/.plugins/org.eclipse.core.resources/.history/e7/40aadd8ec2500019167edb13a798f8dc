@@ -1,0 +1,17 @@
+package com.niit.springcore;
+
+public class UserAccountService {
+
+	private String name;
+	private String description;
+	private String details;
+	
+	public UserAccountService() {
+		super();
+		this.name = "Monika";
+		this.description = "Account is Activated for Equity Trading with";
+		this.details = "PPPQ10000.00";
+	}
+	
+	
+}

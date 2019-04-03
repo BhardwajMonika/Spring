@@ -1,0 +1,14 @@
+
+Mar 29, 2019 11:36:28.74 NEW SESSION
+Mar 29, 2019 11:36:28.74 [7824:6388:0329/113628.735:ERROR:browser_process_sub_thread.cc(209)] Waited 187 ms for network service
+Mar 30, 2019 09:28:42.40 [1180:5808:0330/092842.400:ERROR:browser_process_sub_thread.cc(209)] Waited 13 ms for network service
+
+Apr 02, 2019 11:43:17.12 NEW SESSION
+Apr 02, 2019 11:43:17.12 [4752:5868:0402/114316.854:ERROR:CONSOLE(278)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://mvnrepository.com') does not match the recipient window's origin ('https://www.google.com').", source: chrome-search://most-visited/single.js (278)
+
+Apr 03, 2019 14:47:16.92 NEW SESSION
+Apr 03, 2019 14:47:16.92 [8992:6484:0403/144716.928:ERROR:browser_process_sub_thread.cc(209)] Waited 30 ms for network service
+Apr 03, 2019 14:50:49.90 [9000:1156:0403/145049.907:ERROR:browser_process_sub_thread.cc(209)] Waited 119 ms for network service
+Apr 03, 2019 14:52:56.06 [680:2008:0403/145256.062:ERROR:browser_process_sub_thread.cc(209)] Waited 135 ms for network service
+Apr 03, 2019 14:53:29.90 [5044:7492:0403/145329.908:ERROR:browser_process_sub_thread.cc(209)] Waited 212 ms for network service
+Apr 03, 2019 15:31:07.58 [5132:5084:0403/153107.587:ERROR:browser_process_sub_thread.cc(209)] Waited 54 ms for network service

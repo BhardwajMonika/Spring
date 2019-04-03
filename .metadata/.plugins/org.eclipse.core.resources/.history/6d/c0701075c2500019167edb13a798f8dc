@@ -1,0 +1,10 @@
+package com.niit.springcore;
+
+public class UserAccountService {
+
+	private String name;
+	private String description;
+	private String details;
+	
+	
+}

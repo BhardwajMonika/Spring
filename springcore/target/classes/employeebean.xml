@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+
+<bean id = "adrs" class = "com.niit.springcore.Address">
+      <property name = "city" value = "Faridabad"/>
+        <property name = "state" value = "Haryana"/>
+          <property name = "zipCode" value = "121004"/>
+   </bean>
+
+
+   <bean id = "emp1" class = "com.niit.springcore.Employee">
+      <property name = "eid" value = "200"/>
+      <property name = "ename" value = "Jennie"/>
+      <constructor-arg ref="adrs"></constructor-arg>
+   </bean>
+
+	<bean id = "emp2" class = "com.niit.springcore.Employee">
+      <property name = "eid" value = "201"/>
+      <property name = "ename" value = "Jack"/>
+      <property name = "eaddress" value = "Eastern Shores"/>
+   </bean>
+
+
+
+
+</beans>

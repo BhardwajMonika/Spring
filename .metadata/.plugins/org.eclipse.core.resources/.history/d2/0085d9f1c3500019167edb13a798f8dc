@@ -1,0 +1,15 @@
+package com.niit.springcore;
+
+import org.springframework.context.ApplicationContext;
+
+public class AccountClient {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("account.xml");
+		UserAccountService uas;
+		uas =(UserAccountService) context.getBean("userAccountService");
+
+	}
+
+}

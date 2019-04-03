@@ -1,0 +1,20 @@
+package com.niit.myproject.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SpringBootJdbcController {
+
+	@Autowired
+	JdbcTemplate jdbc;
+	
+	@RequestMapping("/insert")
+	public String inputdata()
+	{
+		jdbc.execute("insert into user(name,email values('Monika',monika@gmail.com')");
+		return "Data inserted successfully";
+	}
+}

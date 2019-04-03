@@ -1,0 +1,9 @@
+package com.niit.springcore;
+
+public class AutowiredAnnotations {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

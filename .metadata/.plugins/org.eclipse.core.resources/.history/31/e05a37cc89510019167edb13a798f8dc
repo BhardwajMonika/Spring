@@ -1,0 +1,10 @@
+package com.niit.spring;
+
+public class BankClient {
+
+	public static void main(String s[])
+	{
+		ApplicationContext context = new ClassPathXmlApplicationContext("bank.xml");
+	}
+	
+}

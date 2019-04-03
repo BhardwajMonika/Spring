@@ -1,0 +1,20 @@
+package com.niit.spring;
+
+import java.util.Date;
+
+@Service
+public class BankService {
+
+	public String deposit(String acNo)
+	{
+		if(acNo.equals("testing"))
+		{
+			System.out.println("Successfully Deposited to your Account at : " + new Date());
+			return "Success";
+		}
+		else
+		{
+			return "Invalid";
+		}
+	}
+}

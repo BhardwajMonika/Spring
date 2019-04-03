@@ -1,0 +1,8 @@
+package com.niit.crm.controller;
+
+
+@Controller
+@RequestMapping("/cutomer")
+public class CustomerController {
+
+}

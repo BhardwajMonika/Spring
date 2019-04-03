@@ -1,0 +1,7 @@
+package com.niit.springcore;
+
+public class Capital {
+
+	String capitalName;
+	
+}

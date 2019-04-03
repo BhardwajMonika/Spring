@@ -1,0 +1,10 @@
+package com.niit.service;
+
+
+@Service
+public class UserService {
+
+	private Integer first;
+	private Integer second;
+	
+}

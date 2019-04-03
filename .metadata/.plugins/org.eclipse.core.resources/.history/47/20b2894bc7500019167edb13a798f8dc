@@ -1,0 +1,14 @@
+package com.niit.springcore;
+
+import org.springframework.context.ApplicationContext;
+
+public class AutowiredAnnotations {
+
+	public static void main(String[] args) {
+		 
+		ApplicationContext context = new ClassPathxmlApplicationContext("country.xml");
+		
+		Country cObj = (Country)context.getBean("countryBean);
+	}
+
+}

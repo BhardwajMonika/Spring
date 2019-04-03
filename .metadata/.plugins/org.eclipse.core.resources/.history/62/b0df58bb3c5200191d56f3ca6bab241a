@@ -1,0 +1,29 @@
+package com.niit.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.niit.model.Employee;
+
+@Controller
+public class EmpController {
+
+	@Autowired
+	EmpDao dao; //will inject dao from XML file
+	
+	/*
+	 * It displays a form to input data, here "command" is a reversed request attribute
+	 * which is used to display object data into form
+	 */
+	
+	@RequestMapping("/empform")
+	public String showform(Model m)
+	{
+		m.addAttribute("command",new Employee());
+		return "empform";
+	}
+	
+	
+}

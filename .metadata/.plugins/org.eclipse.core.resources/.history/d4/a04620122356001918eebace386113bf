@@ -1,0 +1,5 @@
+package com.niit.crm.model;
+
+public class Customer {
+
+}

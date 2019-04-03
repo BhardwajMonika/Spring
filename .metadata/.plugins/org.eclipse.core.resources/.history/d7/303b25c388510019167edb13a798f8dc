@@ -1,0 +1,13 @@
+package com.niit.aop;
+
+
+@Component
+@Aspect
+public class WelcomeLogging {
+
+	@Before("execution(* com.niit.service.*.*(..))")
+	public void logBefore()
+	{
+		System.out.println("*******************WELCOME TO ICICI BANK************************");
+	}
+}

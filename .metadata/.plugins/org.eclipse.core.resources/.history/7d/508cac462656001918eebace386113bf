@@ -1,0 +1,13 @@
+package com.niit.crm.service;
+
+import org.springframework.stereotype.Service;
+
+//@Transactional annotation which is applied at service layer for transaction support.
+//@Service annotation used to annotate service layer implementation classes as
+
+@Service
+public class CustomerServiceImpl implements CustomerService {
+
+	
+	
+}

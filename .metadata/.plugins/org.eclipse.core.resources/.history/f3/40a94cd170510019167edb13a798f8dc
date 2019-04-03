@@ -1,0 +1,5 @@
+package com.niit.aop;
+
+public class TimeLoggingAspect {
+
+}
